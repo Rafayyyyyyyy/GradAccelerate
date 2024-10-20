@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .primary-btn {
+    @apply inline-block bg-primary text-white 
+        font-semibold rounded-lg hover:bg-secondary 
+        duration-200 shadow-[0px_10px_8px_-7px_#ffd978] 
+        hover:shadow-[0px_10px_8px_-7px_#69a79c]  py-2 px-6;
+  }
+}
+
+@layer utilities {
+  .drop-shadow {
+    filter: drop-shadow(6px 8px 10px rgba(0, 0, 0, 0.5));
+  }
+}
+
+.custom-btn {
+  background-color: #d7425f;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.custom-btn:hover {
+  opacity: 0.9;
+}
+
+.bg-custom-red {
+  background-color: #d7425f;
+}
+
+.bg-custom-red {
+  background-color: #d7425f;
+  transition: opacity 0.3s;
+}
+
+.bg-custom-red:hover {
+  opacity: 0.9;
+}

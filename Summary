@@ -1,1 +1,19 @@
+It's a React-based project, likely a web application.
+
+It uses Vite as the build tool and development server.
+
+The project utilizes several modern JavaScript libraries and frameworks:
+
+React and React DOM
+Framer Motion (for animations)
+React Icons
+A custom or third-party library called "frame"
+For development and building:
+
+ESLint is used for code linting
+TypeScript support is included (based on @types/react and @types/react-dom)
+Tailwind CSS is used for styling
+PostCSS and Autoprefixer are included in the build process
+The project is set up for deployment, with gh-pages as a dev dependency, suggesting it might be hosted on GitHub Pages.
+
 
